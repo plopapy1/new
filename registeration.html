@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration</title>
+</head>
+<body>
+    <h2>
+        <p>
+            Create a pfint account
+        </p>
+    </h2>
+    <hr>
+    <br>
+    <form action="">
+        <label for="first name">
+            First name
+        </label>
+        <input type="text" id="first name" placeholder="firstname " required >
+        <br>
+        <br>
+        <label for="middlename">Middle name
+        </label>
+        <input type="text" id="middlename" placeholder="middle name" required>
+        <br>
+        <br>
+        <label for="last name">Last name
+        </label>
+        <input type="text" placeholder="last name" id="last name">
+        <br>
+        <br>
+        <label for="gender">Gender</label><br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" value="male" name="gender">
+        <label for="female">Female</label>
+        <input type="radio" id="female" value="female" name="gender">
+        <br><br>
+        <label for="age">Age</label>
+        <input type="date" id="age">
+        <br>
+        <br>
+        <label for="username">Username</label>
+        <input type="text" id="username" required placeholder="longjohn4">
+        <br>
+        <br>
+        <label for="password"> <mark><ins>Password</ins></mark></label>
+        <input type="password" required id="password" placeholder="******">
+        <br>
+        <br>
+        <label for="qaulification">Qaulification</label><br>
+        <input type="checkbox" id="phd" value="phd" name="qaulification"> <label for="phd">Phd</label><br>
+        <input type="checkbox" id="msc" value="msc" name="qaulification"> <label for="msc">Msc</label> <br>
+        <input type="checkbox" id="bsc" value="bsc" name="qaulification"> <label for="bsc">Bsc</label>
+        <br>
+        <br>
+        <label for="comp">computer literacy</label><br>
+        <label for="yes1">yes</label>
+        <input type="radio" id="yes1" value="yes1" name="comp"><br>
+        <label for="no1">No</label>
+        <input type="radio" id="no1" value="no1" name="comp"><br>
+        <label for="moderate">moderate</label>
+        <input type="radio" id="moderate" value="moderate" name="comp">
+        <br>
+        <br>
+        <label for="course">choose a course</label>
+        <select name="course" id="course" size="2" multiple>
+            <option value="webdev">Web Developent</option>
+            <option value="mobapp">mobile app</option>
+            <option value="uiux"> Uiux</option>
+            <option value="ai">Artificial intelligent</option>
+            <option value="data">data processing</option>
+            <option value="dm">data management</option>
+        </select>
+        <br>
+        <br>
+        <label for="exp">experience</label>
+        <textarea name="message" id="exp" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        <button type="button" onclick="alart">Sign Up</button>
+
+
+    </form>
+    
+</body>
+</html>
